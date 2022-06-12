@@ -22,7 +22,7 @@ self.addEventListener('install', function (e) {
 self.addEventListener('activate', function(e) {
   e.waitUntil(
     caches.keys().then(function(keyList) { //.keys() returns an array of all cache names, which we're calling keyList. 
-      //keyList is a parameter that contains all cache names under <username>.github.io
+      //keyList is a parameter that contains all cache names
       // filter out ones that has this app prefix to create keeplist
       let cacheKeeplist = keyList.filter(function(key) {
         return key.indexOf(APP_PREFIX);
