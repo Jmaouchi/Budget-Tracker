@@ -74,7 +74,7 @@ function uploadBudget() {
           // clear all items in your store
           budgetObjectStore.clear();
 
-          alert('All saved pizza has been submitted!');
+          alert('All saved budgets has been submitted!');
         })
         .catch(err => {
           // set reference to redirect back here
