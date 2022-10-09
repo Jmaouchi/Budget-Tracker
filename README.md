@@ -1,6 +1,6 @@
 [![License](https://img.shields.io/apm/l/npm)](https://choosealicense.com/licenses/mit/)
 
-# Title: # Budget-Tracker
+# Title: Budget-Tracker
 
 
 # Table of  Contents
